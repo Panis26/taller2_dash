@@ -24,6 +24,8 @@ app.config.suppress_callback_exceptions = True
 # Funcion encargada de cargar los datos desde un archivo CSV 
 # y preparar el DataFrame para su uso en la aplicación Dash.
 # PRUEBA CAMBIOS RAMIFICACION - cristian-viz
+
+#PRUEBA CAMBIO LOCAL: sincronizacion con github
 def load_data():
     data = pd.read_csv("datos_energia.csv")
     data["time"] = pd.to_datetime(data["time"])
