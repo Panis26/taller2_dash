@@ -26,6 +26,9 @@ app.config.suppress_callback_exceptions = True
 # PRUEBA CAMBIOS RAMIFICACION - cristian-viz
 
 #PRUEBA CAMBIO LOCAL: sincronizacion con github
+
+#cambios test Andres Guerrero
+
 def load_data():
     data = pd.read_csv("datos_energia.csv")
     data["time"] = pd.to_datetime(data["time"])
